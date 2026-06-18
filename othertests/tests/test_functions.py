@@ -1,5 +1,5 @@
 import pytest
-import functions as functions
+import othertests.functions as functions
 
 def test_add():
     result =  functions.add(1, 4)
