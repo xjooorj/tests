@@ -34,4 +34,9 @@ class Rectangle(shape):
 
     def perimeter(self):
         return (self.lenth * 2) + (self.width * 2)
+    
+
+class Square(Rectangle):
+    def __init__(self, side_length):
+        super().__init__(side_length, side_length)    
                  
